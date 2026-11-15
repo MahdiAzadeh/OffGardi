@@ -1,0 +1,3 @@
+-- Applied to the live project as "offgardi_v2_panels" and "offgardi_v2_storage" (see Supabase migrations tab).
+-- Adds: cities/regions/neighborhoods, app_settings, messages, store profile fields, unlimited stock,
+-- per-customer limit, image URLs, username, storage bucket "media", updated RPCs.
