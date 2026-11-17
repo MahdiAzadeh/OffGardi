@@ -69,3 +69,9 @@ header .btn.s{white-space:nowrap}
 .hero{text-align:center}.hero h1{text-align:center}.hero .in{text-align:center}
 .dayp{display:inline-flex;gap:8px;align-items:center;background:#ffffffb8;border-radius:99px;padding:4px 14px;margin-bottom:8px;color:var(--prit);font-size:13px}.dayp span{color:var(--mu);font-size:12px}
 .card.exp .img{filter:grayscale(.8);opacity:.75}.stamp{position:absolute;top:38%;left:50%;transform:translate(-50%,-50%) rotate(-12deg);z-index:3;border:3px solid #d35a5a;color:#d35a5a;background:#fffffff0;border-radius:10px;padding:2px 10px;font-weight:800;font-size:14px;white-space:nowrap;pointer-events:none}
+/* v5 */
+.dh{position:relative}.dx{position:absolute;top:10px;left:10px;width:34px;height:34px;border-radius:50%;border:0;background:#ffffffcc;cursor:pointer;font-size:16px;color:var(--tx)}
+.stars{background:linear-gradient(270deg,#f5b301 var(--r,0%),#dcd8e6 var(--r,0%));-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;font-size:15px;letter-spacing:1px;display:inline-block;line-height:1.2}
+.si{display:flex;gap:2px;margin:6px 0}.si button{background:none;border:0;font-size:30px;cursor:pointer;color:#dcd8e6;padding:0 2px;line-height:1}.si button.on{color:#f5b301}
+.vb{flex:0 0 auto;background:var(--lav);border:2px solid transparent;border-radius:99px;padding:4px 14px;cursor:pointer;font-size:13px}.vb.on{border-color:var(--prid);background:#d9f1e6}
+.rep{background:var(--sky);border-radius:12px;padding:8px 12px;margin:6px 0;font-size:13px}.vt{margin-top:6px}

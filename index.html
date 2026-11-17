@@ -8,6 +8,6 @@
 <link rel="stylesheet" href="style.css"></head><body>
 <div id="off" class="offl" hidden>📡 آفلاین هستید؛ برخی بخش‌ها کار نمی‌کنند.</div>
 <header><span class="logo" onclick="go('home')">🌿 OffGardi</span><nav id="nav"></nav><span id="usr"></span></header>
-<main id="app"><div class="emp">در حال بارگذاری…</div></main><div class="bot" id="bot"></div><div id="tb"></div><div id="mo"></div><div id="dr" hidden></div>
+<main id="app"><div class="emp">در حال بارگذاری…</div></main><div class="bot" id="bot"></div><div id="tb"></div><div id="mo"></div><div id="dr" hidden onclick="if(event.target===this)closeDrawer()"></div>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
 <script src="config.js"></script><script src="app.js"></script></body></html>
