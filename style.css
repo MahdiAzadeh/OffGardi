@@ -54,3 +54,18 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{text-align:right;
 .tile:nth-child(4n+2){background:var(--peach)}.tile:nth-child(4n+3){background:var(--sky)}.tile:nth-child(4n){background:var(--pink)}
 .tile .ic{position:static;font-size:26px;display:block}.tile b{font-size:13px}.tile small{font-size:11px;color:var(--mu)}.tile.sel{border-color:var(--prid);box-shadow:0 3px 10px #2f7d6322}.tile:disabled{opacity:.5}
 .leaflet-container{font-family:inherit}
+/* v4 */
+.ib{position:relative}.ib.bell.on{background:var(--peach);animation:ring 1.8s ease infinite}.ib .bg{top:-4px;right:-4px;background:#ff7f9e}
+@keyframes ring{0%,88%,100%{transform:rotate(0)}91%{transform:rotate(14deg)}94%{transform:rotate(-12deg)}97%{transform:rotate(8deg)}}
+header .btn.s{white-space:nowrap}
+#dr{position:fixed;inset:0;z-index:40;background:#3a385066}#dr[hidden]{display:none}
+#dr .pn{position:absolute;top:0;bottom:0;right:0;width:66vw;max-width:380px;min-width:250px;background:var(--bg);overflow:auto;animation:slin .25s;padding-top:env(safe-area-inset-top,0)}
+@keyframes slin{from{transform:translateX(100%)}}
+.dh{background:linear-gradient(135deg,#d9f1e6,#e9e2ff);padding:22px 12px 16px;text-align:center}
+.av{width:88px;height:88px;border-radius:50%;background:#fff;display:grid;place-items:center;font-size:38px;margin:0 auto 10px;position:relative;color:var(--prid);font-weight:800;box-shadow:0 4px 14px #7d7aa022}
+.av button{position:absolute;bottom:0;left:0;width:30px;height:30px;border-radius:50%;border:0;background:var(--pri);cursor:pointer;font-size:13px}
+.di{display:flex;align-items:center;gap:10px;padding:14px 16px;border:0;background:none;width:100%;text-align:right;cursor:pointer;border-bottom:1px solid var(--bd);font-size:14px;color:var(--tx)}.di b{flex:1;font-weight:600}.di.out{color:var(--rdd)}
+.bg2{background:#ff7f9e;color:#fff;border-radius:99px;font-style:normal;font-size:11px;padding:0 7px;line-height:18px}
+.hero{text-align:center}.hero h1{text-align:center}.hero .in{text-align:center}
+.dayp{display:inline-flex;gap:8px;align-items:center;background:#ffffffb8;border-radius:99px;padding:4px 14px;margin-bottom:8px;color:var(--prit);font-size:13px}.dayp span{color:var(--mu);font-size:12px}
+.card.exp .img{filter:grayscale(.8);opacity:.75}.stamp{position:absolute;top:38%;left:50%;transform:translate(-50%,-50%) rotate(-12deg);z-index:3;border:3px solid #d35a5a;color:#d35a5a;background:#fffffff0;border-radius:10px;padding:2px 10px;font-weight:800;font-size:14px;white-space:nowrap;pointer-events:none}
