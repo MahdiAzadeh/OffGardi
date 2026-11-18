@@ -75,3 +75,19 @@ header .btn.s{white-space:nowrap}
 .si{display:flex;gap:2px;margin:6px 0}.si button{background:none;border:0;font-size:30px;cursor:pointer;color:#dcd8e6;padding:0 2px;line-height:1}.si button.on{color:#f5b301}
 .vb{flex:0 0 auto;background:var(--lav);border:2px solid transparent;border-radius:99px;padding:4px 14px;cursor:pointer;font-size:13px}.vb.on{border-color:var(--prid);background:#d9f1e6}
 .rep{background:var(--sky);border-radius:12px;padding:8px 12px;margin:6px 0;font-size:13px}.vt{margin-top:6px}
+/* v6 */
+.btn:disabled{opacity:.45;cursor:not-allowed}
+main{padding-top:8px}main h2{margin:2px 0 8px;font-size:18px}main h3{margin:10px 0 6px}
+.ib.bell{filter:grayscale(1);opacity:.55}.ib.bell.on{filter:none;opacity:1}
+.ib img.aimg,.av img{width:100%;height:100%;border-radius:50%;object-fit:cover}.ib{overflow:visible}.ib img.aimg{width:34px;height:34px}
+#dr{animation:fin .22s}#dr.out{animation:fout .23s forwards}#dr.out .pn{animation:slout .23s forwards}
+@keyframes fin{from{opacity:0}}@keyframes fout{to{opacity:0}}@keyframes slout{to{transform:translateX(100%)}}
+/* compact selectable buttons: outline when idle, soft fill when selected */
+.chips{margin:4px 0;gap:6px}.chip{padding:4px 12px;font-size:12.5px;background:transparent;border:1.5px solid #8fd3b6;color:var(--tx)}.chip.on{background:#d9f1e6;border-color:var(--prid);color:var(--prit);font-weight:700}
+.tile{--c:#b8aaf0;--f:#e9e2ff;background:transparent;border:2px solid var(--c);padding:8px 6px;gap:0;border-radius:16px}
+.tile:nth-child(4n+2){--c:#ffb995;--f:#ffe2d1;background:transparent}.tile:nth-child(4n+3){--c:#8fc7f0;--f:#dcefff;background:transparent}.tile:nth-child(4n){--c:#f5a3bb;--f:#ffdce6;background:transparent}
+.tile.sel{background:var(--f)!important;border-color:var(--c);box-shadow:none}.tile .ic{font-size:20px}.tile b{font-size:12.5px}
+.tiles{gap:8px;margin:6px 0 10px}
+.tiles.t3 .tile{flex-direction:row;justify-content:center;gap:6px;padding:6px 4px;border-radius:14px}.tiles.t3 .tile .ic{font-size:16px}.tiles.t3 .tile small{display:none}
+.seg{display:flex;gap:8px;margin:6px 0 10px}.seg button{flex:1;padding:6px 8px;border-radius:12px;border:1.5px solid var(--pri);background:transparent;cursor:pointer;font-size:13px}.seg button.sel{background:#d9f1e6;border-color:var(--prid);font-weight:700;color:var(--prit)}
+.vb{background:transparent;border:1.5px solid #b8aaf0}.vb.on{background:#e9e2ff;border-color:#8f7be0}
