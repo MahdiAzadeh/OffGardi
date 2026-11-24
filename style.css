@@ -130,3 +130,10 @@ body[data-theme=admin]{--pri:#e8890c;--prig:linear-gradient(135deg,#ffb23f,#e875
 .fbtn{display:inline-flex;align-items:center;gap:6px;background:var(--soft);color:var(--pri);border-radius:12px;padding:7px 14px;font-size:12.5px;font-weight:700;cursor:pointer}.fst{font-size:11.5px;color:#a4a9c0;margin:0 8px}
 .cd:disabled{opacity:.3;cursor:not-allowed;background:transparent}.ib:disabled{opacity:.35;cursor:not-allowed}
 .pspin{animation:spin 1.3s linear infinite;filter:drop-shadow(0 6px 12px rgba(var(--shc),.25))}
+/* v11 */
+#app.soft{opacity:.55;transition:opacity .15s;pointer-events:none}
+.phw{position:relative;flex:0 0 auto}.phx{position:absolute;top:-6px;right:-6px;width:22px;height:22px;border-radius:50%;border:0;background:var(--rose);color:#fff;display:grid;place-items:center;cursor:pointer;padding:0;box-shadow:0 3px 8px rgba(0,0,0,.18)}.phx[hidden]{display:none}
+.qk{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}.qk button{border:0;background:var(--soft);color:var(--pri);border-radius:99px;padding:5px 11px;font-size:11.5px;font-weight:600;cursor:pointer}
+.wdb{background:none;border:0;font-size:11px;color:var(--pri);padding:4px 0;cursor:pointer;font-weight:700}
+.cd.ed{background:var(--prig);color:#fff}
+button.st{cursor:pointer;text-align:center;font:inherit}button.st:disabled{cursor:default;opacity:.85}button.st:not(:disabled):active{transform:scale(.97)}
